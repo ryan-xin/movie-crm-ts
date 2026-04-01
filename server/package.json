@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "packageManager": "yarn@4.12.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rd /s /q dist & tsc",
+    "dev": "nodemon --watch src -e ts --exec ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tslint": "^6.1.3",
+    "typescript": "^6.0.2"
+  },
+  "volta": {
+    "node": "24.14.1",
+    "yarn": "4.13.0"
+  },
+  "dependencies": {
+    "class-validator": "^0.15.1"
+  }
+}

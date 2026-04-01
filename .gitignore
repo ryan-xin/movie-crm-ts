@@ -1,2 +1,25 @@
+# Dependencies & build
 node_modules
 dist
+*.tsbuildinfo
+
+# Yarn Berry — ignore local state; commit only releases/plugins/sdks if you add them
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Environment (keep .env.example tracked if you use one)
+.env
+.env.*
+!.env.example
+
+# Logs & OS
+*.log
+.DS_Store
+
+# Editor / tooling
+.cursor
