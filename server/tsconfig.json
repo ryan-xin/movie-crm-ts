@@ -4,12 +4,15 @@
     "module": "commonjs",
     "target": "es2016",
     "outDir": "./dist",
+    "rootDir": "./src",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strictNullChecks": true,
     "removeComments": true,
     "noEmitOnError": true,
     "lib": ["esnext"],
+    "types": ["node"],
+    "strictPropertyInitialization": false,
   },
   "include": ["./src"]
 }

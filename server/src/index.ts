@@ -13,5 +13,6 @@ movie.description = "A superhero movie about a man who becomes a superhero and f
 movie.poster = "https://www.imdb.com/title/tt0468569/";
 console.log(movie);
 
-const errors = validate(movie);
-console.log(errors);
+validate(movie).then(errors => {
+  console.log(errors);
+});

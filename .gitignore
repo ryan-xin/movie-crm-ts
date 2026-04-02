@@ -3,7 +3,7 @@ node_modules
 dist
 *.tsbuildinfo
 
-# Yarn Berry — ignore local state; commit only releases/plugins/sdks if you add them
+# Yarn Berry - ignore local state; commit only releases/plugins/sdks if you add them
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -23,3 +23,6 @@ dist
 
 # Editor / tooling
 .cursor
+
+# vscode
+.vscode
